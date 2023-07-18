@@ -1,0 +1,181 @@
+ @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+header{
+    background-color: #FFFFFF;
+}
+
+.nav-cointainer{
+    max-width: 1400px;
+    min-height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+.logo-container{
+    display: flex;
+    align-items: center;
+}
+.logo-container p{
+   font-size: 2.8rem;
+   font-weight: 700;  
+}
+.logo-container img{
+    object-fit: cover;
+    margin-right: 20px;
+    width: 100px;
+}
+/* Nave Menu Container */
+.nav-menu-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.icon-img{
+    width: 30px;
+    align-items: center;
+}
+.nav-menu-container a{
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: #3C354F;
+
+}
+
+.boder-menu{
+    border: 0;
+    display: flex;
+    align-items: center;
+    gap:15px;
+    padding: 10px;
+    background: rgba(11, 2, 35, 0.10); 
+    border-radius: 8px
+}
+/* Banner Containn */
+.banner-contain{
+    margin: 20px auto 0px;
+    max-width: 1400px;
+    min-height: 50px;
+    display: flex;
+     align-items: center;
+    justify-content: space-around;
+}
+.banner-text{
+    width: 50%;
+    text-align: center;
+
+}
+.banner-text h3{
+    font-size: 50px;
+    margin: 0px;
+    
+}
+.banner-text h2{
+    font-size: 4rem;
+    padding: 0px;
+    margin:0px ;
+    background-image: linear-gradient(to bottom,#F948B2, #8758F1);
+    color: transparent;
+    -webkit-background-clip: text;
+}
+.banner-text p{
+     color: #534C64;
+     font-size: 20px;
+     font-weight: 500;
+}
+.banner-img{
+ width: 50%;
+}
+.banner-img img{
+    width: 80%;
+    margin-left: 80px;
+
+}
+
+
+.banner-btn{
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    padding: 10px 20px;
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%); 
+    border: none;
+    border-radius: 48px;
+    margin-right:10px ;
+}
+.banner-btn1{
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    padding: 10px 20px;
+    background: #4EC5F7; 
+    border: none;
+    border-radius: 48px;
+   
+}
+.banner-contain-2{
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%,
+    rgba(255, 66, 165, 0.03) 100%);
+    margin:0px auto 0px;
+    min-height:400px ;
+    max-width: 1400px;
+    display: flex;
+   align-items: center;
+   justify-content: space-between;
+   
+}
+
+.banner-contain-im2 img{
+   width: 600px;
+   margin-top: 80px;
+   margin-left: 100px;
+  
+}
+.banner-text2 h3{
+    background-image: linear-gradient(to bottom,#F948B2, #8758F1);
+    color: transparent;
+    -webkit-background-clip: text;
+    margin-bottom: 0px;
+   margin-right: 40px;
+   font-size: 48px;
+   font-weight: 700;
+    margin-left: 155px;
+}
+.p-tag{
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400
+}
+.p-tag .an{
+    margin-left: 63px;
+
+}
+.p-tag .mobile{
+    margin-left: 22px;
+}
+.p-tag .month{
+    margin-left: 140px;
+}
+
+#banner-button{
+    margin-left: 330px;
+}
+.banner-text2 .our{
+  margin-left: 307px;
+  color: #534C64;
+  font-size: 24px;
+  font-weight: 500;
+}
+ .banner-text2 .Unleash{
+  margin-right: 100px;
+    color: #534C64;
+    font-size: 30px;
+   font-weight: 700;
+ }
