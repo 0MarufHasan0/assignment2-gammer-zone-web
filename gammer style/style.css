@@ -407,6 +407,7 @@ header{
 }
 /* media-Mobile Device */
 @media screen and (max-width:576px) {
+    /* Nav logo and Menu */
     .nav-cointainer {
         display: flex;
         flex-direction: column;
@@ -415,6 +416,7 @@ header{
         display: flex;
         flex-direction: column;
     }
+    /* Banner part 1 */
     .banner-contain{
         flex-direction: column-reverse;
     }
@@ -427,6 +429,7 @@ header{
         width: 100%;
 
     }
+    /* Banner part 2 */
     .banner-contain-2{
         flex-direction: column;
     }
@@ -472,6 +475,7 @@ header{
     #banner-button{
         margin-right: 300px;
     }
+    /* Gaming zone part */
     .gaming-card{
         flex-direction: column;
         width:50%;
@@ -517,10 +521,12 @@ header{
         margin-top: 60px;
         text-align: center;
     }
+    /* Our all game */
     .our-all-game{
       display: grid;
     grid-template-columns: repeat(2 , 1fr);
 }
+/* Footer */
     .footer{
         width: 100%;
         margin: 0px 0px 0px 10px;
@@ -546,7 +552,7 @@ header{
 }
 /* Media tablet device */
 @media screen and (min-width:576px) and (max-width:1024px) {
-    
+    /* Banner */
     .banner-contain-2{
         flex-direction: column;
     }
@@ -595,6 +601,7 @@ header{
     #banner-button{
         margin-left: 30px;
     }
+    /* Gaming zone */
     .gamming-content{
         margin-bottom: 70px;
     }
@@ -643,10 +650,12 @@ header{
         margin-top: 60px;
         text-align: center;
     }
+    /* Our All Game  */
     .our-all-game{
         display: flex;
        flex-wrap: wrap;
 }
+/* Footer */
     .footer{
         width: 100%;
         margin: 0px 0px 0px 10px;
