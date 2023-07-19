@@ -531,6 +531,9 @@ header{
         width: 100%;
         margin: 0px 0px 0px 10px;
     }
+    .footer-dis{
+        height: 500px;
+    }
     .footer-terms{
         
         gap: 20px;
@@ -659,6 +662,9 @@ header{
     .footer{
         width: 100%;
         margin: 0px 0px 0px 10px;
+    }
+    .footer-dis{
+        height: 500px;
     }
     .footer-details{
         text-align: center;
