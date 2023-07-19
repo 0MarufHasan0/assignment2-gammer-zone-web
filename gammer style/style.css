@@ -185,7 +185,7 @@ header{
 
 /* Img Container */
 .Gaming-content{    
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0 auto;
     text-align: center;
 }
@@ -193,7 +193,7 @@ header{
     color: #534C64;
     font-size: 18px;
     font-weight: 400;
-    margin: 0px;
+    margin:0px 0px 20px 0px;
     padding: 0px;
 }
 
@@ -251,8 +251,8 @@ header{
 /* Img Container end */
  /* Gmmer Zone */
  .game-zone{
-   
-    margin-top: 60px;
+    margin: 60px auto 0px auto;
+    max-width: 1400px;
    display: flex;
    align-items: center;
    justify-content: space-around;
@@ -298,10 +298,10 @@ header{
 /* Our Game Zone */
 
 .our-all-game{
-
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    max-width: 1400px;
     justify-content: center;
     gap: 30px;
     margin: 0 auto 100px auto;
@@ -324,11 +324,12 @@ header{
     margin-right: 20px;
 }
 /* Footer */
-footer{
+ footer{
     background-color: #0B0223;
-   min-height: 550px;
-   
-  
+}
+.footer-dis{
+    max-width: 1400px;
+    margin: 0 auto;
 }
 .footer-logo{
     display: flex;
@@ -529,4 +530,125 @@ footer{
        gap: 10px;
     }
       
+}
+@media screen and (min-width:576px) and (max-width:1024px) {
+    
+    .banner-contain-2{
+        flex-direction: column;
+    }
+    .banner-contain-2 img{
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    .banner-text2{
+        margin-top: 10px;
+        margin-bottom: 0px;
+        width: 50%;
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+    } 
+    .banner-text2 h3{
+        display: flex;
+        margin: 0px;
+        text-align: center;
+        justify-content: center;
+    }
+    .p-tag .an{
+        margin: 0px;
+        padding: 0%;
+    }
+    .p-tag .company{
+        margin: 0px;
+        padding: 0%;
+    }
+    .p-tag .month{
+        margin: 0%;
+    }
+     .our{
+        display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 200px;
+    }
+
+    .banner-text2 .Unleash {
+        margin-right: 0px;
+        font-size: 10px;
+    }
+
+    #banner-button{
+        margin-left: 30px;
+    }
+    .gamming-content{
+        margin-bottom: 70px;
+    }
+    .gaming-card{
+        flex-direction: column;
+        width:50%;
+        margin: 0px auto;
+    }
+    .card-image{
+        width: 100%;
+        height: 100%;
+    }
+    .game-text{
+        width: 50%;
+        margin: 0 auto 20px auto;
+    }
+    .game-card-title{
+        width: 50%;
+        margin: 20px auto auto auto;
+        margin-bottom: 5px;
+    }
+    .game-card-discription{
+        width: 50%;
+        margin: 0 auto;
+        margin-bottom: 5px;
+        margin-bottom: 40px ;
+    }
+    .game-zone{
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .gammer-img-bottom img{
+        position: relative;
+        
+        right: 20px;
+        width: 50%;
+        bottom: 120px;
+    }
+    .game-2img{
+        width: 70%;
+        height: 50%;
+        margin:0 auto ;
+    }
+    .game-text h3{
+        margin-top: 60px;
+        text-align: center;
+    }
+    .our-all-game{
+        display: flex;
+       flex-wrap: wrap;
+}
+    .footer{
+        width: 100%;
+        margin: 0px 0px 0px 10px;
+    }
+    .footer-details{
+        text-align: center;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2 ,1fr);
+    }
+    .footer-copy-rights{
+        text-align: center;
+    }
+    .icon-footer{
+       gap: 30px;
+    }
+      
+    
 }
